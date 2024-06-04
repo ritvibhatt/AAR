@@ -54,7 +54,7 @@ public class InstructionManager : MonoBehaviour
             //     playedNote = "C";
             // DisplayPlayedNote();
     }
-    void RefreshInstruction()
+    public void RefreshInstruction()
     {
         if (currentInstructionIndex == 1)
         {
@@ -86,7 +86,7 @@ public class InstructionManager : MonoBehaviour
             }
     }
 
-    void PrevInstruction()
+    public void PrevInstruction()
     {
         // Increment the instruction index
         currentInstructionIndex--;
@@ -106,7 +106,7 @@ public class InstructionManager : MonoBehaviour
         }
     }
 
-    void CheckInstruction()
+    public void CheckInstruction()
     {
         // If the current instruction requires the chair to be placed, check its placement
         // if (instructions[currentInstructionIndex] == "Sit on the chair next to the piano.")

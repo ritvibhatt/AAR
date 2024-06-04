@@ -32,7 +32,7 @@ public AudioSource fireplaceAudioSource;
         fireButton.onClick.AddListener(DecreaseVolume);
     }
 
-    void DecreaseVolume()
+    public void DecreaseVolume()
     {
         if (fireplaceAudioSource != null)
         {
