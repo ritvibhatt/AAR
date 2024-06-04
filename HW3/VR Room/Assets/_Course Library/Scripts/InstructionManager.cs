@@ -10,11 +10,11 @@ public class InstructionManager : MonoBehaviour
     public TextMeshProUGUI instructionText;
     public TextMeshProUGUI DisplayTruthTMP;
     private string[] instructions = {
-        "Welcome to our piano tutorial. Come on inside, then click next!",
+        "Welcome to our piano tutorial. Click next to continue!",
         "Sit on the chair next to the piano.",
         "Follow the text on the screen to play the piano, and click next to continue.",
         "You are now starting to play! We will display the note you are going to play on the screen. ",
-        "use the foot pedal",
+        "Start by stepping on the foot pedal",
         ""
     };
 
@@ -108,39 +108,43 @@ public class InstructionManager : MonoBehaviour
 
     public void CheckInstruction()
     {
-        // If the current instruction requires the chair to be placed, check its placement
-        // if (instructions[currentInstructionIndex] == "Sit on the chair next to the piano.")
-        // {
-        //     ChairPlacement placementChecker = FindObjectOfType<ChairPlacement>();
-        //     if (placementChecker.IsChairInPlace())
-        //     {
-        //         NextInstruction();
-        //     }
-        //     else
-        //     {
-        //         Debug.Log("Chair is not in the right area yet.");
-        //         // Optionally display a message to the user
-        //         instructionText.text = "Sorry, it looks like the chair isn't in the right place. Please move the chair in front of the piano.";
-        //     }
-        // }
-        // else
-        // {
-        //     NextInstruction();
-        // }
-        NextInstruction();
+        //If the current instruction requires the chair to be placed, check its placement
+         if (instructions[currentInstructionIndex] == "Sit on the chair next to the piano.")
+        {
+            ChairPlacement placementChecker = FindObjectOfType<ChairPlacement>();
+            if (placementChecker.IsChairInPlace())
+            {
+                NextInstruction();
+            }
+            else
+            {
+                Debug.Log("Chair is not in the right area yet.");
+                // Optionally display a message to the user
+                instructionText.text = "Sorry, it looks like the chair isn't in the right place. Please move the chair in front of the piano.";
+            }
+        }
+        else
+        {
+            NextInstruction();
+        }
     }
 
 
-            private IEnumerator FootPedalSequence()
-        {
+    private IEnumerator FootPedalSequence()
+    {
         nextButton.interactable = false; // Disable the Next button
-        instructionText.text = "use the foot pedal";
+        instructionText.text = "Start by stepping on the foot pedal";
         yield return new WaitForSeconds(1); // Wait for 2 seconds
-        instructionText.text = "scanning the foot pedal...";
+        instructionText.text = "AI scanning the foot pedal...";
 
         yield return new WaitForSeconds(3); // Wait for 2 seconds
 
         instructionText.text = "Sorry, it seems you don't have the foot pedal.";
         nextButton.interactable = true; // Re-enable the Next button
+
+
+        yield return new WaitForSeconds(2); // Wait for 2 seconds
+        instructionText.text = "Now press the PlayMode button to play a song!";
         }
+        
 }
