@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEditor.Animations;
 
 public class Detect : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Detect : MonoBehaviour
     [SerializeField] private TextMeshPro text;
     [SerializeField] private TextMeshPro timerText;
     [SerializeField] private TextMeshPro succText;
+    [SerializeField] private GameObject piano;
     public bool correctNotes = false;
     public string pressedKey;
     private int currentKey = 0;
@@ -25,6 +27,13 @@ public class Detect : MonoBehaviour
     void Start()
     {
         timer = insideTimer;
+        foreach (Transform child in piano.transform)
+        {
+            foreach (Transform children in child)
+            {
+                children.gameObject.SetActive(false);
+            }
+        }
     }
 
     // Update is called once per frame
