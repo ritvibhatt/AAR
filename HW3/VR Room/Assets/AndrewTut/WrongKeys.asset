@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d884d52a6c73756498f80893409a23a4, type: 3}
+  m_Name: WrongKeys
+  m_EditorClassIdentifier: 
+  pianoData:
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 0}
+  - <Key>k__BackingField: D
+    <Label>k__BackingField: {fileID: 1697121537073212612, guid: 0338e7bfcf9974d4d91ce128a27e279b,
+      type: 3}
+  - <Key>k__BackingField: C
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: D
+    <Label>k__BackingField: {fileID: 1697121537073212612, guid: 0338e7bfcf9974d4d91ce128a27e279b,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 2108975951446224373, guid: 70ccad83cf8f48e4eb48b804ca734785,
+      type: 3}
+  - <Key>k__BackingField: D
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: D
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: D
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 2108975951446224373, guid: 70ccad83cf8f48e4eb48b804ca734785,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 2108975951446224373, guid: 70ccad83cf8f48e4eb48b804ca734785,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 2108975951446224373, guid: 70ccad83cf8f48e4eb48b804ca734785,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 2108975951446224373, guid: 70ccad83cf8f48e4eb48b804ca734785,
+      type: 3}
+  - <Key>k__BackingField: D
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: C
+    <Label>k__BackingField: {fileID: 1697121537073212612, guid: 0338e7bfcf9974d4d91ce128a27e279b,
+      type: 3}
+  - <Key>k__BackingField: D
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 2108975951446224373, guid: 70ccad83cf8f48e4eb48b804ca734785,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 2108975951446224373, guid: 70ccad83cf8f48e4eb48b804ca734785,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 2108975951446224373, guid: 70ccad83cf8f48e4eb48b804ca734785,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 2108975951446224373, guid: 70ccad83cf8f48e4eb48b804ca734785,
+      type: 3}
+  - <Key>k__BackingField: D
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: D
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: E
+    <Label>k__BackingField: {fileID: 2108975951446224373, guid: 70ccad83cf8f48e4eb48b804ca734785,
+      type: 3}
+  - <Key>k__BackingField: D
+    <Label>k__BackingField: {fileID: 1713785408019513740, guid: 7ebe6429662b399409efee6880e09383,
+      type: 3}
+  - <Key>k__BackingField: C
+    <Label>k__BackingField: {fileID: 1697121537073212612, guid: 0338e7bfcf9974d4d91ce128a27e279b,
+      type: 3}
