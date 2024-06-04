@@ -13,6 +13,6 @@ public class WrongLabel : MonoBehaviour
 
     public void ChangeLabel()
     {
-        keyLabel.text = "D1";
+        keyLabel.text = "B1";
     }
 }
